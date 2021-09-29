@@ -1,8 +1,5 @@
 package com.trustly.MontyHallSimulator;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Configuration;
-
 public abstract class MultipleSimulator {
     protected float probabilityOfSuccess;
 

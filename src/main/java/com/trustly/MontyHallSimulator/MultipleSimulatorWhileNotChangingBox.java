@@ -1,8 +1,5 @@
 package com.trustly.MontyHallSimulator;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Configuration;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
