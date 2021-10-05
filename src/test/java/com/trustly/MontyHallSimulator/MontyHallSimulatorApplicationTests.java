@@ -23,7 +23,7 @@ class MontyHallSimulatorApplicationTests {
                 return true;
             }
         };
-        Assertions.assertEquals(1, sim.probabilityOfSuccess);
+        Assertions.assertEquals(1, sim.getProbabilityOfSuccess());
     }
 
     @Test
@@ -34,18 +34,18 @@ class MontyHallSimulatorApplicationTests {
                 return false;
             }
         };
-        Assertions.assertEquals(0, sim.probabilityOfSuccess);
+        Assertions.assertEquals(0, sim.getProbabilityOfSuccess());
     }
 
     @Test
     void testMultipleSimulatorWhileNotChangingBox() {
         sim = new MultipleSimulatorWhileNotChangingBox(timesOfSimulate);
-        Assertions.assertTrue(sim.probabilityOfSuccess > 0 && sim.probabilityOfSuccess < 1);
+        Assertions.assertTrue(sim.getProbabilityOfSuccess() > 0 && sim.getProbabilityOfSuccess() < 1);
     }
 
     @Test
     void testMultipleSimulatorWhileChangingBox() {
         sim = new MultipleSimulatorWhileChangingBox(timesOfSimulate);
-        Assertions.assertTrue(sim.probabilityOfSuccess > 0 && sim.probabilityOfSuccess < 1);
+        Assertions.assertTrue(sim.getProbabilityOfSuccess() > 0 && sim.getProbabilityOfSuccess() < 1);
     }
 }

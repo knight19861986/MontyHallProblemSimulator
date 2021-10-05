@@ -1,7 +1,7 @@
 package com.trustly.MontyHallSimulator;
 
 public abstract class MultipleSimulator {
-    protected float probabilityOfSuccess;
+    private float probabilityOfSuccess;
 
     public MultipleSimulator(int timesOfSimulate) {
         int numOfSuccess = 0;
