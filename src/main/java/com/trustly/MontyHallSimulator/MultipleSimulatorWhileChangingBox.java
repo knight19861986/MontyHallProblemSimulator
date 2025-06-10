@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class MultipleSimulatorWhileChangingBox extends MultipleSimulator{
+public class MultipleSimulatorWhileChangingBox extends MultipleSimulator {
     public MultipleSimulatorWhileChangingBox(int timesOfSimulate) {
         super(timesOfSimulate);
     }

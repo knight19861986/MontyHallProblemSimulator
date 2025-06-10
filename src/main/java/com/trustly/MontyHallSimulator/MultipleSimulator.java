@@ -10,7 +10,7 @@ public abstract class MultipleSimulator {
                 numOfSuccess++;
 
         }
-        probabilityOfSuccess = (float)numOfSuccess / timesOfSimulate;
+        probabilityOfSuccess = (float) numOfSuccess / timesOfSimulate;
     }
 
     abstract protected boolean singleSimulate();

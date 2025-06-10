@@ -14,6 +14,7 @@ public class Selector {
     public int getSelectedBoxID() {
         return selectedBoxID;
     }
+
     public void setSelectedBoxID(int id) {
         this.selectedBoxID = id;
     }

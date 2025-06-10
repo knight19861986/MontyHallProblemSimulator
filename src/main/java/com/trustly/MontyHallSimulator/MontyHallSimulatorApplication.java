@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MontyHallSimulatorApplication implements Constants{
+public class MontyHallSimulatorApplication implements Constants {
     private static Logger logger = LoggerFactory.getLogger(MontyHallSimulatorApplication.class);
 
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class MontyHallSimulatorApplication implements Constants{
                 + 100 * sim1.getProbabilityOfSuccess() + "%");
 
         logger.info("The probability of success while changing box is "
-                + 100 * sim2.getProbabilityOfSuccess()+ "%");
+                + 100 * sim2.getProbabilityOfSuccess() + "%");
 
     }
 }
